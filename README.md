@@ -2,7 +2,7 @@
 
 ### Execution
 
-This repository contains the Jupyter Notebook that holds all of the code for the project. It can be directly executed (running it on a GPU is recommended). Google Colab is preferred.
+This repository contains the Jupyter Notebook, `dltheory_final_project.ipynb`, which holds all of the code for the project. It can be directly executed (running it on a GPU is recommended). Google Colab is preferred.
 
 ### Prerequisite Libraries
 
