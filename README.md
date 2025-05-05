@@ -9,14 +9,15 @@ This repository contains the Jupyter Notebook, `dltheory_final_project.ipynb`, w
 Required libraries are:
 ```
 torch @ https://download.pytorch.org/whl/cu124/torch-2.6.0%2Bcu124-cp311-cp311-linux_x86_64.whl
+matplotlib==3.10.0
+scikit-learn==1.6.1
 torch-geometric==2.6.1
 torch_cluster==1.6.3+pt26cu124
 torch_scatter==2.1.2+pt26cu124
 torch_sparse==0.6.18+pt26cu124
-matplotlib==3.10.0
-scikit-learn==1.6.1
 ogb==1.3.6
 ```
+Note that `torch-geometric`, `torch_cluster`, `torch_scatter`, `torch_sparse`, and `ogb` are installed inside the Jupyter Notebook, so a separate installation may not be necessary.
 
 This list does not include the sub-dependencies of those libraries. For a more complete reference, you can refer to `requirements.txt`, but note that this is the output of 
 ```
