@@ -2,7 +2,7 @@
 
 ### Execution
 
-This repository contains the Jupyter Notebook, `dltheory_final_project.ipynb`, which holds all of the code for the project. It can be directly executed (running it on a GPU is recommended). Google Colab is preferred.
+This repository contains the Jupyter notebook, `dltheory_final_project.ipynb`, which holds all of the code for the project. It can be directly executed (running it on a GPU is recommended). Google Colab is preferred.
 
 ### Prerequisite Libraries
 
@@ -17,7 +17,7 @@ torch_scatter==2.1.2+pt26cu124
 torch_sparse==0.6.18+pt26cu124
 ogb==1.3.6
 ```
-Note that `torch-geometric`, `torch_cluster`, `torch_scatter`, `torch_sparse`, and `ogb` are installed inside the Jupyter Notebook, so a separate installation may not be necessary.
+Note that `torch-geometric`, `torch_cluster`, `torch_scatter`, `torch_sparse`, and `ogb` are installed inside the Jupyter notebook, so a separate installation may not be necessary.
 
 This list does not include the sub-dependencies of those libraries. For a more complete reference, you can refer to `requirements.txt`, but note that this is the output of 
 ```
